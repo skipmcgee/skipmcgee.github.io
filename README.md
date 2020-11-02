@@ -1,4 +1,4 @@
-** Welcome to Skip McGee's site!**
+# Welcome to Skip McGee's website!
 
 >All men dream: but not equally. 
 >Those who dream by night in the dusty recesses of their minds wake up in the day to find it was vanity, 
