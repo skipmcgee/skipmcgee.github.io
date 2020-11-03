@@ -6,9 +6,9 @@
 >T.E. Lawrence
 
 ## Please take a look at the projects that I am interested in:
-###   -[weatherscraper](https://github.com/skipmcgee/weatherscraper)
-###   -[host security](https://github.com/skipmcgee/host_security)
-###   -[expense analysis](https://github.com/skipmcgee/expense_impact)
+###   -[weatherscraper](https://github.com/skipmcgee/weatherscraper) GUI application to display thecurrent weather in two locations. Requires a free API key.
+###   -[expense analysis](https://github.com/skipmcgee/expense_impact) A quick coding exercise to try to teach python basics and help guide personal finance decisions. 
+###   -[host security](https://github.com/skipmcgee/host_security) This is the first script that I ever wrote - it definitely isn't the best-written code you will see, but it works and helps ensure the continuous monitoring of your environment.
 
 ***I would love to get your feedback and improve the quality and caliber of my code!***
 
