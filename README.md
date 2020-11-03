@@ -21,8 +21,8 @@ I'm a security engineer learning software development skills with python. Beside
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/david-skip-mcgee-b0b3119).
 
 <p float="middle">
-  <img src="/images/hunter1.jpg" width="30%" />
-  <img src="/images/thelooters.jpg" width="51%" /> 
+  <img src="/images/hunter1.jpg" width="30%" title="Hillside in Northern Arizona" />
+  <img src="/images/thelooters.jpg" width="51%" title="The 'Looters' (minus 4)" /> 
 </p>
 
 
