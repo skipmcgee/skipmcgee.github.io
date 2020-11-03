@@ -5,25 +5,25 @@
 etheme: jekyll-theme-slate
 ####
 title: (insert Title)
-#
+####
 production_url : (insert URL)
-#
+####
 author :
-#
+####
   name : (insert name)
-  #
+  ####
   email : (insert email)
-  #
+  ####
   github : (insert GitHub username)
-#
+####
 include: 
-#
+####
   - (insert any extra files)
-#
+####
 JB :
-#
+####
   BASE_PATH : (insert the base URL if different from the main repo)
-#
+####
 ### README.md
 
 '  >(insert quote)'
