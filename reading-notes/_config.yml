@@ -8,3 +8,6 @@ author :
 include: 
   - README.md
   - initial_learning
+JB :
+  version : 0.3.0
+  BASE_PATH : https://skipmcgee.github.io/reading-notes/
