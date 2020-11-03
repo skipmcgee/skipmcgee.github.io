@@ -16,7 +16,7 @@
 
 ## About me:
 
-I'm a security engineer learning software development skills with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
+I'm a security engineer learning software development skills, starting with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/david-skip-mcgee-b0b3119).
 
