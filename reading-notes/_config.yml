@@ -1,5 +1,10 @@
 etheme: jekyll-theme-slate
 title: Code Fellows Assignments
+production_url : https://skipmcgee.github.io/reading-notes/
+author :
+  name : Skip McGee
+  email : davidfranklinmcgee@gmail.com
+  github : skipmcgee
 include: 
   - README.md
   - initial_learning
