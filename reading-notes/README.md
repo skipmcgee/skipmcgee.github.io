@@ -9,10 +9,8 @@
   - Ask frequent, genuine questions
   - Diligently work to understand, failure to prepare is failure to grow
 
-## Please check out my [main](https://github.com/skipmcgee/skipmcgee.github.io) GitHub page and my [code](https://github.com/skipmcgee).
+## Please check out my [main](https://skipmcgee.github.io) GitHub page and my [code](https://github.com/skipmcgee).
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
-
-PLease take a look at my main GitHub page [here](https://skipmcgee.github.io).
 
 ![White Sands, New Mexico](/images/whitesands.jpg)
