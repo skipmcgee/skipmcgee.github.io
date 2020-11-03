@@ -25,19 +25,25 @@ JB :
   BASE_PATH : (insert the base URL if different from the main repo)
 ####
 ### README.md
-
-'  >(insert quote)'
- 
-' - # (Number of #'s determines the size) '
-' - ## (medium)'
-' - ### (smallest)'
- 
+####
+"  >(insert quote)"
+####
+"# (Number of #'s determines the size)
+####
+"## (medium)
+####
+"### (smallest)
+####
 Lists syntax:   - (insert list item)
+####
                 - (next list item)
-                
-Italics: *(Italics)*
-Bold: **(Bold)**
-Bold & Italics: ***(Bold & Italics)***
-
+####
+Italics: * (Italics, remove surrounding spaces) *
+####
+Bold: ** (Bold, remove surrounding spaces **
+####
+Bold & Italics: *** (Bold & Italics, remove surrounding spaces) ***
+####
 Links with name: [Name](directory/file)
+####
 Links without name: ![Name](directory/file)
