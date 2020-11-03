@@ -2,8 +2,8 @@
 
 ### _config.yml
 
->etheme: jekyll-theme-slate
->title: (insert Title)
+'etheme: jekyll-theme-slate'
+'title: (insert Title)'
 >production_url : (insert URL)
 >author :
 >  name : (insert name)
@@ -16,11 +16,11 @@
 
 ### README.md
 
-  >(insert quote)
+'  >(insert quote)'
  
- - # (Number of #'s determines the size) 
- - ## (medium)
- - ### (smallest)
+' - # (Number of #'s determines the size) '
+' - ## (medium)'
+' - ### (smallest)'
  
 Lists syntax:   - (insert list item)
                 - (next list item)
