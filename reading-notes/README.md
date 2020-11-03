@@ -18,4 +18,4 @@
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
-[White Sands, New Mexico] (/images/whitesands.jpg)
+![White Sands, New Mexico](/images/whitesands.jpg)
