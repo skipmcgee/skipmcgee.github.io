@@ -18,7 +18,7 @@ author :
 ####
 include: 
 ####
-  - (insert any extra files)
+"  - (insert any extra files) (Note '"' added to prevent autoformat)
 ####
 JB :
 ####
