@@ -5,5 +5,9 @@ author :
   name : Skip McGee
   email : davidfranklinmcgee@gmail.com
   github : skipmcgee
+include: 
+  - reading-notes/
+  - reading-notes/README.md
+  - reading-notes/initial_learning.md
 JB :
   BASE_PATH : https://skipmcgee.github.io/
