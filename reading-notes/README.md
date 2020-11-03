@@ -12,7 +12,7 @@
 ### Please check out my [main](https://skipmcgee.github.io) GitHub page and my [code](https://github.com/skipmcgee).
 
 ### Directory of Code Fellows assignments:
-  - [Initial Learning](https://github.com/skipmcgee/skipmcgee.github.io/blob/main/reading-notes/initial_learning)
+  - [Initial Learning](https://github.com/skipmcgee/skipmcgee.github.io/blob/main/reading-notes/initial_learning.md)
   
   
   
