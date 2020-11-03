@@ -44,6 +44,6 @@ Bold: ** (Bold, remove surrounding spaces **
 ####
 Bold & Italics: *** (Bold & Italics, remove surrounding spaces) ***
 ####
-Links with name: [Name](directory/file)
+Links with name: [Name] (directory/file)  
 ####
-Links without name: ![Name](directory/file)
+Links without name: ![Name] (directory/file)  
