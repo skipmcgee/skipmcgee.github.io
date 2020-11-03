@@ -13,4 +13,6 @@
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
+PLease take a look at my main GitHub page [here](https://skipmcgee.github.io).
+
 ![White Sands, New Mexico](/images/whitesands.jpg)
