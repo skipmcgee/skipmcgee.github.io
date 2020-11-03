@@ -14,7 +14,7 @@
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
-link to Code Fellows assignments: *[Code 102 ](reading-notes/README.md)*
+Find my Code Fellows assignment page at: *[Code 102 ](reading-notes/README.md)*
 
 ## About me:
 
