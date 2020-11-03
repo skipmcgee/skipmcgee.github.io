@@ -5,7 +5,7 @@
 >but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible. 
 >T.E. Lawrence
 
-## Please take a look at the projects that I am interested in:
+## Please take a look at the projects that I have developed or am working on:
 ###   -[Tax Form 2106](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist and enable reserve / national guard personel filling out tax form 2106.
 ###   -[weatherscraper](https://github.com/skipmcgee/weatherscraper) GUI application to display the current weather in two locations. Requires a free API key.
 ###   -[expense analysis](https://github.com/skipmcgee/expense_impact) A quick coding exercise to try to teach python basics and help guide personal finance decisions. 
