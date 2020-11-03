@@ -20,9 +20,9 @@ I'm a security engineer learning software development skills with python. Beside
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/david-skip-mcgee-b0b3119).
 
-<p float="middle">
-  <img src="/images/hunter1.jpg" width="400" />
-  <img src="/images/thelooters.jpg" width="1600" /> 
+<p float="left">
+  <img src="/images/hunter1.jpg" width="100%" />
+  <img src="/images/thelooters.jpg" width="100%" /> 
 </p>
 
 
