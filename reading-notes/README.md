@@ -1,7 +1,7 @@
 
 # *Hello!*
 
-                ***My name is Skip McGee, I'm a growing and learning software developer!***
+                      ***My name is Skip McGee, I'm a growing and learning software developer!***
 
 ## To me, a "growth mindset" means focusing on continuous improvement. This is a diligent, daily practice that requires internal evaluation and assessment.
 ## Three ways that I can maintain a growth mindset:
