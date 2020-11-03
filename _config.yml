@@ -10,14 +10,9 @@ navbar-links:
   About Me: "Learning and improving coding skills"
   Resources:
   - README: "README.md"
-  - Reading Notes: "reading-notes/"
-  - Reading Notes Page: "reading-notes/README.md"
-  - Initial Learning Page: "reading-notes/initial_learning.md"
+  - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
 include: 
   - README.md
-  - reading-notes/
-  - reading-notes/README.md
-  - reading-notes/initial_learning.md
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
