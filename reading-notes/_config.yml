@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+etheme: jekyll-theme-slate
 title: Code Fellows Reading Notes
 description: Code Fellows assignments 
-include: page.md
+include: README.md
