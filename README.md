@@ -3,7 +3,7 @@
 >All men dream: but not equally. 
 >Those who dream by night in the dusty recesses of their minds wake up in the day to find it was vanity, 
 >but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible. 
->T.E. Lawrence
+>-T.E. Lawrence
 
 ## Please take a look at the projects that I have developed or am working on:
 - [Tax Form 2106:](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist and enable reserve / national guard personel filling out tax form 2106.
