@@ -1,10 +1,18 @@
 theme: jekyll-theme-slate
 title: Welcome to Skip McGee's GitHub page!
 production_url : https://skipmcgee.github.io
+
 author :
   name : Skip McGee
   email : davidfranklinmcgee@gmail.com
   github : skipmcgee
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+  - README: "README.md"
+  - Reading Notes: "reading-notes/"
+  - Reading Notes Page: "reading-notes/README.md"
+  - Initial Learning Page: "reading-notes/initial_learning.md"
 include: 
   - README.md
   - reading-notes/
@@ -15,6 +23,29 @@ plugins:
   - jekyll-sitemap
 JB :
   BASE_PATH : https://skipmcgee.github.io/
+  
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
+
+# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+#mobile-theme-col: "#0085A1"
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+#site-css:
+#  - "/assets/css/custom-styles.css"
+
+# If you have common JavaScript files that should be included in every page, list them here
+#site-js:
+#  - "/assets/js/custom-script.js"
+
+# --- Web Analytics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
+
+# Fill in your Google Analytics ID to track your website using Google Analytics
+#google_analytics: ""
+
+# Google Tag Manager ID
+#gtm: ""
