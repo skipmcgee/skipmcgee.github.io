@@ -25,4 +25,4 @@ If you would like further information on my professional background, please see 
   <img src="/images/thelooters.jpg" width="51%" title="The 'Looters' (minus 4)" /> 
 </p>
 
-***Prowling a hillside in Northern Arizona & The 'Looters' (minus 4)***
+> ***Prowling a hillside in Northern Arizona & The 'Looters' (minus 4)***
