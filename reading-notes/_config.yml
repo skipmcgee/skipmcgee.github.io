@@ -1,4 +1,6 @@
 etheme: jekyll-theme-slate
 title: Code Fellows Reading Notes
 description: Code Fellows assignments 
-include: README.md
+include: 
+  - README.md
+  - initial_learning
