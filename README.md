@@ -13,7 +13,7 @@
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
-Find my Code Fellows assignment page at: *[Code 102 ](reading-notes/README.md)*
+Find my Code Fellows bootcamp page at: *[Reading Notes](https://skipmcgee.github.io/reading-notes/)*
 
 ## About me:
 
