@@ -22,7 +22,7 @@ If you would like further information on my professional background, please see 
 
 <p float="middle">
   <img src="/images/hunter1.jpg" width="400" />
-  <img src="/images/thelooters.jpg" width="800" /> 
+  <img src="/images/thelooters.jpg" width="1600" /> 
 </p>
 
 
