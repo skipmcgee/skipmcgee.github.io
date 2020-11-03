@@ -13,7 +13,7 @@
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
-Find my Code Fellows assignment page at: *[Code 102 ](reading-notes/README.md)*
+Find my Code Fellows assignment page at: *[Code 102 ](reading-notes/page.md)*
 
 ## About me:
 
