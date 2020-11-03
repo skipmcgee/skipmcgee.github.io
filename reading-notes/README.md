@@ -11,6 +11,6 @@
 
 ## Please check out my [main](https://github.com/skipmcgee/skipmcgee.github.io) GitHub page and my [code](https://github.com/skipmcgee).
 
-***I would love to get your feedback and improve the quality and caliber of my code!***
+***I would love to get your feedback to improve the quality and caliber of my code!***
 
 ![White Sands, New Mexico](/images/whitesands.jpg)
