@@ -6,8 +6,15 @@ author :
   email : davidfranklinmcgee@gmail.com
   github : skipmcgee
 include: 
+  - README.md
   - reading-notes/
   - reading-notes/README.md
   - reading-notes/initial_learning.md
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 JB :
   BASE_PATH : https://skipmcgee.github.io/
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
