@@ -1,2 +1,7 @@
 theme: jekyll-theme-slate
 title: Welcome to Skip McGee's GitHub page!
+production_url : https://skipmcgee.github.io
+author :
+  name : Skip McGee
+  email : davidfranklinmcgee@gmail.com
+  github : skipmcgee
