@@ -13,6 +13,7 @@
 
 ### Directory of Code Fellows assignments:
   - [Initial Learning](https://github.com/skipmcgee/skipmcgee.github.io/blob/main/reading-notes/initial_learning.md)
+  - To Be Developed
   
 
 ***I would love to get your feedback to improve the quality and caliber of my code!***
