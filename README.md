@@ -24,6 +24,3 @@ If you would like further information on my professional background, please see 
   <img src="/images/hunter1.jpg" width="30%" title="Hillside in Northern Arizona" />
   <img src="/images/thelooters.jpg" width="51%" title="The 'Looters' (minus 4)" /> 
 </p>
-
-
-# ![Hillside in Northern Arizona](/images/hunter1.jpg)![The Looters (minus 4)](/images/thelooters.jpg)
