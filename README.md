@@ -20,4 +20,4 @@ I'm a security engineer learning software development skills with python. Beside
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/david-skip-mcgee-b0b3119).
 
-[Hillside in Northern Arizona](/images/hunter1.jpg),[The Looters (minus 4)](/images/thelooters.jpg)
+[Hillside in Northern Arizona](/images/hunter1.jpg)[The Looters (minus 4)](/images/thelooters.jpg)
