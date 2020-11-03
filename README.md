@@ -6,7 +6,8 @@
 >T.E. Lawrence
 
 ## Please take a look at the projects that I am interested in:
-###   -[weatherscraper](https://github.com/skipmcgee/weatherscraper) GUI application to display thecurrent weather in two locations. Requires a free API key.
+###   -[Tax Form 2106](https://github.com/skipmcgee/2106) **In Progress** An application to assist and provide clarity to reserve / national guard personel filling out tax form 2106.
+###   -[weatherscraper](https://github.com/skipmcgee/weatherscraper) GUI application to display the current weather in two locations. Requires a free API key.
 ###   -[expense analysis](https://github.com/skipmcgee/expense_impact) A quick coding exercise to try to teach python basics and help guide personal finance decisions. 
 ###   -[host security](https://github.com/skipmcgee/host_security) This is the first script that I ever wrote - it definitely isn't the best-written code you will see, but it works and helps ensure the continuous monitoring of your environment.
 
