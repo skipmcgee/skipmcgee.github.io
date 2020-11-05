@@ -26,6 +26,5 @@ If you would like further information on my professional background, please see 
   <img src="/images/thelooters.jpg" width="44%" title="The 'Looters' (minus 4)" /> 
   <img src="/images/deer.jpg" width="26%" title="Deer" /> 
 </p>
-<div class="myWrapper" markdown="1">
-<p style="text-align: center;">'The Looters' (minus 4)</p>
- >'The Looters' (minus 4)<
+
+<div style="text-align:center"><span style="color:black">'The Looters' (minus 4)</span></div>
