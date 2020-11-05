@@ -28,4 +28,4 @@ If you would like further information on my professional background, please see 
 </p>
 <div class="myWrapper" markdown="1">
 <p style="text-align: center;">'The Looters' (minus 4)</p>
- ->'The Looters' (minus 4)<-
+ >'The Looters' (minus 4)<
