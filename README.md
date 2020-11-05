@@ -22,9 +22,9 @@ I'm a security engineer learning software development skills, starting with pyth
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/skip-mcgee).
 
 <p float="middle">
-  <img src="/images/hunter1.jpg" width="30%" title="Hillside in Northern Arizona" />
-  <img src="/images/thelooters.jpg" width="51%" title="The 'Looters' (minus 4)" /> 
-  <img src="/images/deer.jpg" width="30%" title="Deer" /> 
+  <img src="/images/hunter1.jpg" width="26%" title="Hillside in Northern Arizona" />
+  <img src="/images/thelooters.jpg" width="48%" title="The 'Looters' (minus 4)" /> 
+  <img src="/images/deer.jpg" width="26%" title="Deer" /> 
 </p>
 
   Prowling a hillside in Northern Arizona   &   'The Looters' (minus 4)
