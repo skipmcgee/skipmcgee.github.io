@@ -23,7 +23,7 @@ If you would like further information on my professional background, please see 
 
 <p float="middle">
   <img src="/images/hunter1.jpg" width="26%" title="Hillside in Northern Arizona" />
-  <img src="/images/thelooters.jpg" width="48%" title="The 'Looters' (minus 4)" /> 
+  <img src="/images/thelooters.jpg" width="44%" title="The 'Looters' (minus 4)" /> 
   <img src="/images/deer.jpg" width="26%" title="Deer" /> 
 </p>
 
