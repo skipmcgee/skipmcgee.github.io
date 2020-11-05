@@ -27,4 +27,7 @@ If you would like further information on my professional background, please see 
   <img src="/images/deer.jpg" width="26%" title="Deer" /> 
 </p>
 
+<p float="middle">
+  <text="'The Looters' (minus 4)" />
+</p>
   Prowling a hillside in Northern Arizona   &   'The Looters' (minus 4)
