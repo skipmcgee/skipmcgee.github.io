@@ -14,7 +14,7 @@
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
 - Find my Code Fellows bootcamp page at: *[Reading Notes](https://skipmcgee.github.io/reading-notes/)*
-- Check out photos from the DJC2 20.2 Detachment at: *[The Looters](https://skipmcgee.github.io/deployment/)*
+- Check out photos from the DJC2 20.2 Deployment at: *[The Looters](https://skipmcgee.github.io/deployment/)*
 
 ## About me:
 
