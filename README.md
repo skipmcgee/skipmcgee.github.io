@@ -14,11 +14,12 @@
 ***I would love to get your feedback to improve the quality and caliber of my code!***
 
 Find my Code Fellows bootcamp page at: *[Reading Notes](https://skipmcgee.github.io/reading-notes/)*
+
 Check out photos from the DJC2 20.2 Detachment at: *[The Looters](https://skipmcgee.github.io/deployment/)*
 
 ## About me:
 
-I'm a information security engineer learning software development skills, starting with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
+I'm a infosec engineer learning software development skills, starting with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/skip-mcgee).
 
