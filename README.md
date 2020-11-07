@@ -18,7 +18,7 @@
 
 ## About me:
 
-I'm a infosec engineer learning software development skills, starting with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
+I'm an infosec engineer learning software development skills, starting with python. Besides scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/skip-mcgee).
 
