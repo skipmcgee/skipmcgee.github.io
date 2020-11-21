@@ -7,7 +7,7 @@
 
 ## Please check out some of my projects:
 - [Tax Form 2106:](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist reserve & national guard personnel fill out Tax Form 2106.
-- [weather scraper:](https://github.com/skipmcgee/weatherscraper) (***In Progress***) A GUI application to display the current weather in two locations simultaneously. Requires a free [OpenWeather.org](https://openweathermap.org/api) API key.
+- [weather scraper:](https://github.com/skipmcgee/weatherscraper) (***Completed***) A GUI application to display the current weather in two locations simultaneously. Requires a free [OpenWeather.org](https://openweathermap.org/api) API key.
 - [expense analysis:](https://github.com/skipmcgee/expense_impact) (***Completed***) A quick coding exercise to try to teach python basics while helping guide personal finance decisions. 
 - [host security:](https://github.com/skipmcgee/host_security) (***Completed***) This is my first python script - it definitely isn't the most efficient code you will see, but it works and helps ensure the continuous monitoring of your environment. Enumerate security-relevant information on your RHEL 6 & 7 hosts and send it via syslog to your enterprise logserver.
 
