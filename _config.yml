@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 production_url : https://skipmcgee.github.io
-title: []
-description: [Windows 10 application to monitor the current weather in two locations across the globe]
+title: [Welcome to Skip McGee's page:]
+description: [a personal introduction to my code and projects!]
 author :
   name : Skip McGee
   email : davidfranklinmcgee@gmail.com
