@@ -6,7 +6,7 @@ author :
   name : ["Skip McGee"]
   email : ["davidfranklinmcgee@gmail.com"]
   github : ["skipmcgee"]
-production_url : [https://skipmcgee.github.io]
+  
 navbar-links :
   About Me : ["Building coding skills!"]
   Resources :
