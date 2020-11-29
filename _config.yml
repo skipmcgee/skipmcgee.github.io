@@ -1,19 +1,19 @@
 theme : jekyll-theme-hydejack
-title : ["Welcome to Skip McGee's page: "]
-description: ["a personal introduction to my code and projects"]
+title : "Welcome to Skip McGee's page: "
+description: "a personal introduction to my code and projects!"
 
 author :
-  name : ["Skip McGee"]
-  email : ["davidfranklinmcgee@gmail.com"]
-  github : ["skipmcgee"]
+  name : "Skip McGee"
+  email : "davidfranklinmcgee@gmail.com"
+  github : "skipmcgee"
   
 navbar-links :
-  About Me : ["Building coding skills!"]
+  About Me : "Building coding skills!"
   Resources :
-  - README: ["README.md"]
-  - Code Fellows: ["https://skipmcgee.github.io/reading-notes/"]
+  - README: "README.md"
+  - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
 include : 
-  - ["README.md"]
+  - "README.md"
 plugins :
   - jekyll-paginate
   - jekyll-sitemap
@@ -40,7 +40,7 @@ pages :
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag : ["G-TXJDG6Q5E2"]
+gtag : "G-TXJDG6Q5E2"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""
