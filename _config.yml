@@ -43,7 +43,7 @@ pages :
 gtag : "G-TXJDG6Q5E2"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+google_analytics: "G-TXJDG6Q5E2"
 
 # Google Tag Manager ID
 #gtm: ""
