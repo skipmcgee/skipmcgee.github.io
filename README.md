@@ -7,7 +7,7 @@
 
 ## Please check out some of my projects:
 - [Tax_Form_2106:](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist reserve & national guard personnel fill out Tax Form 2106.
-- [WeatherApp:](https://github.com/skipmcgee/WeatherApp) (***Completed***) A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions located at [weatherscraper](https://github.com/skipmcgee/weatherscraper).
+- [WeatherApp:](https://skipmcgee/github.io/WeatherApp) (***Completed***) A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions located at [weatherscraper](https://github.com/skipmcgee/weatherscraper).
 - [Expense_Analysis:](https://github.com/skipmcgee/expense_impact) (***Completed***) A short coding exercise to try to teach python basics while helping guide personal finance decisions. 
 - [Host_Security:](https://github.com/skipmcgee/host_security) (***Completed***) This is my first python script - it definitely isn't the most efficient code you will see, but it helps to ensure the continuous monitoring of your environment. Enumerate security-relevant information on your RHEL 6 & 7 hosts and send it via syslog to your enterprise logserver.
 
