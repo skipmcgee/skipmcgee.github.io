@@ -1,14 +1,14 @@
 theme : jekyll-theme-slate
-title : "Welcome to Skip McGee's page:"
-description: [a personal introduction to my code and projects!]
+title : [Welcome to Skip McGee's page: ]
+description: [a personal introduction to my code and projects]
 
 author :
   name : [Skip McGee]
-  email : "davidfranklinmcgee@gmail.com"
-  github : "skipmcgee"
+  email : [davidfranklinmcgee@gmail.com]
+  github : [skipmcgee]
 production_url : [https://skipmcgee.github.io]
 navbar-links :
-  About Me : "Learning and improving coding skills"
+  About Me : [Learning and improving coding skills]
   Resources :
   - README: "README.md"
   - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
