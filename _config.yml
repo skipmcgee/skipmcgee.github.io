@@ -12,8 +12,7 @@ navbar-links :
   Resources :
   - README: "README.md"
   - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
-include : 
-  - "README.md"
+
 plugins :
   - jekyll-paginate
   - jekyll-sitemap
@@ -38,12 +37,5 @@ pages :
 #  - "/assets/js/custom-script.js"
 
 # --- Web Analytics Section --- #
-
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag : "G-TXJDG6Q5E2"
-
 # Fill in your Google Analytics ID to track your website using Google Analytics
 google_analytics: "G-TXJDG6Q5E2"
-
-# Google Tag Manager ID
-#gtm: ""
