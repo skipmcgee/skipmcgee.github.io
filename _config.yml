@@ -3,9 +3,9 @@ production_url : [https://skipmcgee.github.io]
 title: [Welcome to Skip McGee's page:]
 description: [a personal introduction to my code and projects!]
 author :
-  name : Skip McGee
-  email : davidfranklinmcgee@gmail.com
-  github : skipmcgee
+  name : [Skip McGee]
+  email : "davidfranklinmcgee@gmail.com"
+  github : "skipmcgee"
 navbar-links:
   About Me: "Learning and improving coding skills"
   Resources:
