@@ -1,26 +1,27 @@
-theme: jekyll-theme-slate
-production_url : [https://skipmcgee.github.io]
-title: [Welcome to Skip McGee's page:]
+theme : jekyll-theme-slate
+title : [Welcome to Skip McGee's page:]
 description: [a personal introduction to my code and projects!]
+
 author :
   name : [Skip McGee]
   email : "davidfranklinmcgee@gmail.com"
   github : "skipmcgee"
-navbar-links:
-  About Me: "Learning and improving coding skills"
-  Resources:
+production_url : [https://skipmcgee.github.io]
+navbar-links :
+  About Me : "Learning and improving coding skills"
+  Resources :
   - README: "README.md"
   - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
-include: 
+include : 
   - README.md
-plugins:
+plugins :
   - jekyll-paginate
   - jekyll-sitemap
 JB :
   BASE_PATH : https://skipmcgee.github.io/
-pages:
-  markdown:
-    extra: true
+pages :
+  markdown :
+    extra : true
     
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
