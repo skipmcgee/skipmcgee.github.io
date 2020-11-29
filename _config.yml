@@ -38,4 +38,5 @@ pages :
 
 # --- Web Analytics Section --- #
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "G-TXJDG6Q5E2"
+gtag.js : "G-TXJDG6Q5E2"
+google_analytics : "G-TXJDG6Q5E2"
