@@ -17,8 +17,7 @@ include :
 plugins :
   - jekyll-paginate
   - jekyll-sitemap
-JB :
-  BASE_PATH : [https://skipmcgee.github.io/]
+  
 pages :
   markdown :
     extra : true
