@@ -16,7 +16,8 @@ navbar-links :
   Resources :
   - README: "README.md"
   - Code Fellows: "https://skipmcgee.github.io/reading-notes/"
-
+  
+url: "https://skipmcgee.github.io"
 plugins :
   - jekyll-paginate
   - jekyll-sitemap
