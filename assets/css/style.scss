@@ -2,7 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
-
+.navbuttons {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
 .navbuttons {
   background-color: darkgray;
   border: 3px outset;
