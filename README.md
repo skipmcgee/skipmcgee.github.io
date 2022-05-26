@@ -21,7 +21,7 @@
 
 I'm an infosec engineer trying to improve my software development skills. Besides programming and scripting, I'm an avid outdoorsman, hang-glider pilot, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
-If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/skip-mcgee).
+If you would like further information on my professional background, please see my [LinkedIn page](https://in.linkedin.com/in/skip-mcgee).
 
 <p float="middle">
   <img src="/images/hunter1.jpg" width="26%" title="Hillside in Northern Arizona" />
