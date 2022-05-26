@@ -11,7 +11,7 @@
 - [Expense_Analysis:](https://github.com/skipmcgee/expense_impact) (***Completed***) A short coding exercise to try to teach python basics while helping guide personal finance decisions. 
 - [Tax_Form_2106:](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist reserve & national guard personnel fill out Tax Form 2106.
 
-***I would love to get your feedback on any projects to improve the quality and caliber of my code!***
+***I would love to get your feedback on these projects to improve the quality and caliber of my code!***
 
 <p float="middle">
   <img src="/images/4F4A3A71-1A38-4122-8624-AA5279C13180.jpeg" width="100%" title="Takeoff at La Bajada" />
