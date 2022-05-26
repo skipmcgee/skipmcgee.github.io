@@ -13,9 +13,13 @@
 
 ***I would love to get your feedback on any projects to improve the quality and caliber of my code!***
 
+<p float="middle">
+  <img src="/images/4F4A3A71-1A38-4122-8624-AA5279C13180.jpeg" width="66%" title="Takeoff at La Bajada" />
+</p>
+
 ## About:
 
-I'm an infosec engineer building/learning software development skills. Besides programming/scripting, I'm an avid outdoorsman, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
+I'm an infosec engineer building/learning software development skills. Besides programming/scripting, I'm an avid outdoorsman, hang-glider pilot, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
 If you would like further information on my professional background, please see my LinkedIn page [here](https://in.linkedin.com/in/skip-mcgee).
 
