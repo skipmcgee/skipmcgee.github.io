@@ -33,3 +33,7 @@ If you would like further information on my professional background, please see 
   <b>'The Looters' (minus 4)</b><br>
   <br><br>
 </p>
+
+<a href="https://www.abuseipdb.com/user/89863" title="AbuseIPDB is an IP address blacklist for webmasters and sysadmins to report IP addresses engaging in abusive behavior on their networks">
+	<img src="https://www.abuseipdb.com/contributor/89863.svg" alt="AbuseIPDB Contributor Badge" style="width: 401px;">
+</a>
