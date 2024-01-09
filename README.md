@@ -2,11 +2,11 @@ I'm an infosec engineer and software developer. Besides programming and scriptin
 
 If you would like further information on my professional background, please see my [LinkedIn page](https://in.linkedin.com/in/skip-mcgee).
 
-## Publications:
+## My Publications:
 - [Automation for Future Conflicts](https://marines.dev/assets/McGeeGazetteArticle0823.pdf) (Published by the Marine Corps Gazette in August, 2023)
 - [Technical Leadership](https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence) (Published by the U.S. Naval Institute in April, 2021)
 
-## Projects:
+## My Projects:
 - [Red Hat Host Security:](https://github.com/lanl/rhelhostinfo) (***Completed***) Use the host-as-sensor model to enumerate security-relevant information about a RHEL host and the surrounding network, identifying and reporting changes via syslog.
 - [WeatherApp:](https://skipmcgee.github.io/WeatherApp) (***Completed***) A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions located at [weatherscraper](https://github.com/skipmcgee/weatherscraper).
 - [Expense_Analysis:](https://github.com/skipmcgee/expense_impact) (***Completed***) A short coding exercise to try to teach python basics while helping guide personal finance decisions. 
