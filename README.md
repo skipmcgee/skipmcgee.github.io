@@ -23,8 +23,8 @@ If you would like further information on my professional background, please see 
 </p>
 
 ## My publications:
-- [Automation for Future Conflicts:](https://marines.dev/assets/McGeeGazetteArticle0823.pdf)
-- [Technical Leadership:](https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence)
+- [Automation for Future Conflicts](https://marines.dev/assets/McGeeGazetteArticle0823.pdf) (Published by the Marine Corps Gazette in August, 2023)
+- [Technical Leadership](https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence) (Published by the U.S. Naval Institute in April, 2021)
 
 <p float="middle">
   <img src="/images/hunter1.jpg" width="26%" title="Hillside in Northern Arizona" />
