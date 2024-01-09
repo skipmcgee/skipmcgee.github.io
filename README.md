@@ -1,4 +1,3 @@
-## 
 
 I'm an infosec engineer and software developer. Besides programming and scripting, I'm an avid outdoorsman, hang-glider pilot, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
@@ -14,7 +13,7 @@ If you would like further information on my professional background, please see 
 - [Expense_Analysis:](https://github.com/skipmcgee/expense_impact) (***Completed***) A short coding exercise to try to teach python basics while helping guide personal finance decisions. 
 - [Tax_Form_2106:](https://github.com/skipmcgee/2106) (***In Progress***) An application to assist reserve & national guard personnel fill out Tax Form 2106.
 
-## 
+
 <p float="middle">
   <img src="/images/4F4A3A71-1A38-4122-8624-AA5279C13180.jpeg" width="99%" title="Takeoff at La Bajada" />
 </p>
