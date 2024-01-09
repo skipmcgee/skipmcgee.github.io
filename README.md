@@ -1,3 +1,4 @@
+<title>Skip McGee</title>
 
 I'm an infosec engineer and software developer. Besides programming and scripting, I'm an avid outdoorsman, hang-glider pilot, hunter, skier and hiker located at the southern end of the Rockies in Santa Fe, NM.
 
