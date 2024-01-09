@@ -13,6 +13,10 @@
 
 ***I would love to get your feedback on these projects to improve the quality and caliber of my code!***
 
+## My publications:
+- [Automation for Future Conflicts:](https://marines.dev/assets/McGeeGazetteArticle0823.pdf)
+- [Technical Leadership:](https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence)
+
 <p float="middle">
   <img src="/images/4F4A3A71-1A38-4122-8624-AA5279C13180.jpeg" width="99%" title="Takeoff at La Bajada" />
 </p>
