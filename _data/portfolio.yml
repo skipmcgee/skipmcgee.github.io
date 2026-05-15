@@ -1,0 +1,183 @@
+# Personal Information - Original Template Data
+personal:
+  name: "Skip McGee"
+  title: "Cybersecurity Engineer / Computer Scientist"
+  tagline: "// Building Secure Infrastructure & Code"
+  logo: "Skip McGee"
+  email: "notvalid@gmail.com"
+  phone: "+1 (555) 123-4567"
+  location: "Santa Fe, NM"
+  linkedin: "linkedin.com/in/skip-mcgee"
+  github: "github.com/skipmcgee"
+  profileImage: "/assets/img/profile.jpg"
+  bio:
+    - "I'm a cybersecurity professional and full-stack developer with 5+ years of experience securing digital infrastructure and building resilient applications. Specializing in penetration testing, threat analysis, and secure application development."
+    - "When I'm not hunting vulnerabilities or coding, you'll find me contributing to security research, participating in CTF competitions, or exploring the latest in AI and machine learning."
+
+# Navigation
+navigation:
+  - label: "HOME"
+    href: "#home"
+  - label: "ABOUT"
+    href: "#about"
+  - label: "RESUME"
+    href: "#resume"
+  - label: "SKILLS"
+    href: "#skills"
+  - label: "PROJECTS"
+    href: "#projects"
+
+# Experience - Original Template Data with Bullet Points
+experience:
+  - title: "Senior Cybersecurity Engineer"
+    company: "CyberDefense Corp"
+    period: "2022 - Present"
+    description:
+      - "Lead security assessments and incident response for enterprise clients"
+      - "Developed automated threat detection systems reducing response time by 60%"
+      - "Implemented zero-trust architecture for critical infrastructure"
+      - "Managed team of 5 security analysts and coordinated with C-level executives"
+  
+  - title: "Full Stack Security Developer"
+    company: "SecureTech Solutions"
+    period: "2020 - 2022"
+    description:
+      - "Built secure web applications with integrated security monitoring"
+      - "Implemented zero-trust architecture for client applications"
+      - "Conducted code reviews and security testing for development teams"
+      - "Reduced security vulnerabilities by 75% through proactive measures"
+  
+  - title: "Penetration Tester"
+    company: "Red Team Labs"
+    period: "2019 - 2020"
+    description:
+      - "Conducted comprehensive security assessments for Fortune 500 companies"
+      - "Identified and documented critical vulnerabilities in web applications"
+      - "Performed social engineering assessments and physical security testing"
+      - "Created detailed remediation reports for executive leadership"
+
+# Education
+education:
+  - degree: "Bachelor of Computer Science"
+    institution: "Oregon State University"
+    period: "2021 - 2026"
+    description: "Focus on systems security and software engineering."
+
+  - degree: "Graduate Certificate in Defensive Cyber Operations"
+    institution: "SANS University"
+    period: "2019 - 2021"
+    description: "Focused on linux security and threat hunting."
+
+  - degree: "Master of Cybersecurity & Information Assurance"
+    institution: "Western Governors University"
+    period: "2016 - 2017"
+    description: "Focused on understanding the frameworks for information security."
+
+  - degree: "Master of Public Administration"
+    institution: "University of North Carolina at Pembroke"
+    period: "2013 - 2015"
+    description: "Focused on adding public value. Thesis on the history and legeslation behind facking in Mora County, New Mexico."
+
+  - degree: "Bachelor of Liberal Arts"
+    institution: "St. John's College"
+    period: "2006 - 2010"
+    description: "Focus on Math and Philosophy. Thesis on Fredrich Nietzsche."
+
+# Certifications
+certifications:
+  - name: "CISSP"
+    issuer: "ISC²"
+    year: "2017"
+  - name: "CEH"
+    issuer: "EC-Council"
+    year: "2017"
+
+# Skills - Original Template Data
+skills:
+  - category: "Security Operations"
+    icon: "🛡️"
+    tags:
+      - "SIEM"
+      - "SOC Analysis"
+      - "Incident Response"
+      - "Threat Hunting"
+      - "Forensics"
+  
+  - category: "Penetration Testing"
+    icon: "🎯"
+    tags:
+      - "Metasploit"
+      - "Burp Suite"
+      - "Nmap"
+      - "OWASP"
+      - "Social Engineering"
+  
+  - category: "Software Development"
+    icon: "⚡"
+    tags:
+      - "Rust"
+      - "Python"
+      - "Node.js"
+      - "Java"
+  
+  - category: "Cloud Security"
+    icon: "☁️"
+    tags:
+      - "AWS Security"
+      - "Azure Sentinel"
+      - "Docker"
+      - "Kubernetes"
+      - "Terraform"
+  
+  - category: "Cryptography"
+    icon: "🔐"
+    tags:
+      - "PKI"
+      - "TLS/SSL"
+      - "Encryption"
+      - "Digital Signatures"
+      - "Key Management"
+  
+  - category: "Compliance"
+    icon: "📋"
+    tags:
+      - "ISO 27001"
+      - "NIST"
+      - "SOC 2"
+      - "GDPR"
+      - "HIPAA"
+
+# Projects - Original Template Data
+projects:
+  - title: "ThreatHunter AI"
+    icon: "🤖"
+    url: "https://github.com/yourusername/threathunter-ai"
+    description: "Machine learning-powered threat detection system that analyzes network traffic patterns to identify advanced persistent threats in real-time."
+    links:
+      - label: "Demo"
+        url: "#"
+      - label: "GitHub"
+        url: "#"
+  
+  - title: "SecureVault"
+    icon: "🔒"
+    description: "End-to-end encrypted password manager with zero-knowledge architecture and biometric authentication integration."
+    links:
+      - label: "Demo"
+        url: "#"
+      - label: "GitHub"
+        url: "#"
+  
+  - title: "PenTest Toolkit"
+    icon: "🛠️"
+    description: "Comprehensive penetration testing framework with automated vulnerability scanning and reporting capabilities."
+    links:
+      - label: "GitHub"
+        url: "#"
+
+# SEO - Original Template Data
+seo:
+  title: "Skip McGee - Cybersecurity Engineer & Computer Scientist"
+  description: "Cybersecurity Engineer and Computer Scientist with a variety of interests: application development, scripting, SIEM, threat hunting, networking, vulnerability scanning and device hardening."
+  keywords: "cybersecurity, penetration testing, software development, full stack developer, threat hunting, security engineer"
+  ogImage: "/assets/img/profile.jpg"
