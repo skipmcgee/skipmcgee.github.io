@@ -36,6 +36,10 @@ layout: default
             <p>{{ paragraph }}</p>
             {% endfor %}
         </div>
+        <div class="about-quote">
+            <p>"{{ site.data.portfolio.personal.quote }}"</p>
+            <p>"-- {{ site.data.portfolio.personal.author }}"</p>
+        </div>
     </div>
 </section>
 
@@ -120,7 +124,6 @@ layout: default
 </section>
 
 <!-- Projects Section -->
-<!-- Projects Section -->
 <section id="projects" class="section">
     <h2 class="section-title">Projects</h2>
     <div class="projects-grid">
@@ -128,7 +131,6 @@ layout: default
         <div class="project-card">
             <div class="project-image">{{ project.icon }}</div>
             <div class="project-content">
-                <!-- Clickable Project Title -->
                 {% if project.url %}
                 <h4>
                     <a href="{{ project.url }}" 
@@ -154,6 +156,37 @@ layout: default
                     </a>
                     {% endfor %}
                 </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- PublicationsSection -->
+<section id="publications" class="section">
+    <h2 class="section-title">Publications</h2>
+    <div class="projects-grid">
+        {% for publication in site.data.portfolio.publications %}
+        <div class="project-card">
+            <div class="project-image">{{ publication.icon }}</div>
+            <div class="project-content">
+                {% if publication.url %}
+                <h4>
+                    <a href="{{ publication.url }}" 
+                       class="project-title-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="Visit {{ publication.title }} publication">
+                        {{ publication.title }}
+                    </a>
+                </h4>
+                {% else %}
+                <h4>{{ publication.title }}</h4>
+                {% endif %}
+                <p>{{ publication.description }}</p>
+                <p>{{ publication.date }}</p>
+                <p>{{ publication.publication }}</p>
+                <p>{{ publication.publisher }}</p>
             </div>
         </div>
         {% endfor %}

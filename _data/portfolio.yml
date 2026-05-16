@@ -1,4 +1,4 @@
-# Personal Information - Original Template Data
+# Personal Information
 personal:
   name: "Skip McGee"
   title: "Cybersecurity Engineer / Computer Scientist"
@@ -13,6 +13,8 @@ personal:
   bio:
     - "I'm a cybersecurity professional and full-stack developer with 5+ years of experience securing digital infrastructure and building resilient applications. Specializing in penetration testing, threat analysis, and secure application development."
     - "When I'm not hunting vulnerabilities or coding, you'll find me contributing to security research, participating in CTF competitions, or exploring the latest in AI and machine learning."
+  quote: "All men dream: but not equally. Those who dream by night in the dusty recesses of their minds wake up in the day to find it was vanity, but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible."
+  author: "T.E. Lawrence"
 
 # Navigation
 navigation:
@@ -26,6 +28,8 @@ navigation:
     href: "#skills"
   - label: "PROJECTS"
     href: "#projects"
+  - label: "PUBLICATIONS"
+    href: "#publications"
 
 # Experience - Original Template Data with Bullet Points
 experience:
@@ -147,35 +151,56 @@ skills:
       - "GDPR"
       - "HIPAA"
 
-# Projects - Original Template Data
+# Projects
 projects:
-  - title: "ThreatHunter AI"
-    icon: "🤖"
-    url: "https://github.com/yourusername/threathunter-ai"
-    description: "Machine learning-powered threat detection system that analyzes network traffic patterns to identify advanced persistent threats in real-time."
-    links:
-      - label: "Demo"
-        url: "#"
-      - label: "GitHub"
-        url: "#"
-  
-  - title: "SecureVault"
-    icon: "🔒"
-    description: "End-to-end encrypted password manager with zero-knowledge architecture and biometric authentication integration."
-    links:
-      - label: "Demo"
-        url: "#"
-      - label: "GitHub"
-        url: "#"
-  
-  - title: "PenTest Toolkit"
+  - title: "Panhandle"
     icon: "🛠️"
-    description: "Comprehensive penetration testing framework with automated vulnerability scanning and reporting capabilities."
-    links:
-      - label: "GitHub"
-        url: "#"
+    url: "https://github.com/lanl/panhandle"
+    description: "A project to provide user activity monitoring for High Performance Computing systems and clusters. The goal is to provide effective user activity monitoring with minimal performance impact on the host running this service."
 
-# SEO - Original Template Data
+  
+  - title: "Red Hat Host Security"
+    icon: "🔒"
+    url: "https://github.com/lanl/rhelhostinfo"
+    description: "Use the host-as-sensor model to enumerate security-relevant information about a RHEL host and the surrounding network, identifying and reporting changes via syslog."
+
+  
+  - title: "WeatherApp"
+    icon: "⚡"
+    url: "https://github.com/skipmcgee/WeatherApp"
+    description: "A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions."
+    links:
+      - label: "Source Code"
+        url: "https://github.com/skipmcgee/weatherscraper"
+
+  - title: "Expense_Analysis"
+    icon: "📊"
+    url: "https://github.com/skipmcgee/expense_impact"
+    description: "An application to assist reserve & national guard personnel fill out Tax Form 2106."    
+
+publications:
+  - title: "The Requirement for Software Engineers at the Tactical Edge"
+    url: "https://marines.dev/articles/images/McGeeGazetteArticle1025.pdf"
+    description: "The potential for software engineers to drive future strategic and tactical successes against near-peer threats."
+    date: "October, 2025"
+    publisher: "Marine Corps Association"
+    publication: "Marine Corps Gazette"
+
+  - title: "Automation for Future Conflicts"
+    url: "/assets/docs/AutomationArticle.pdf"
+    description: "The requirement for automation to drive success in future conflicts and the need for investment in software development."
+    date: "August, 2023"
+    publisher: "Marine Corps Association"
+    publication: "Marine Corps Gazette"
+
+  - title: "Technical Leadership"
+    url: "https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence"
+    description: "The differences and observations for adapting general leadership to technical problems and environments."
+    date: "April, 2021"
+    publisher: "United States Naval Institute"
+    publication: "Proceedings Magazine"
+
+# SEO
 seo:
   title: "Skip McGee - Cybersecurity Engineer & Computer Scientist"
   description: "Cybersecurity Engineer and Computer Scientist with a variety of interests: application development, scripting, SIEM, threat hunting, networking, vulnerability scanning and device hardening."
