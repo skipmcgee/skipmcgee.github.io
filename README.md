@@ -31,7 +31,14 @@ Before you begin, make sure you have:
    bundle exec jekyll serve --incremental
    ```
 
-## Images
+### Updates
+
+``` bash
+bundle update --bundler
+bundle update
+```
+
+### Images
 
 <p float="middle">
   <img src="/assets/img/hunter1.jpg" width="26%" title="Hillside in Northern Arizona" />
