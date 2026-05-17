@@ -1,8 +1,8 @@
 # Skip's Personal Portfolio Site
 
-## Adapted from
+## Used and adapted code from
 
-- 
+- `https://github.com/realnamesareboring/jekyll-and-hire`
 
 ### Prerequisites
 
