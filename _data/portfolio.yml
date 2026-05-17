@@ -1,0 +1,282 @@
+# Personal Information
+personal:
+  name: "Skip McGee"
+  title: "Cybersecurity Engineer / Computer Scientist"
+  tagline: "// Building Secure Infrastructure & Code"
+  logo: "Skip McGee"
+  email: "notvalid@gmail.com"
+  phone: "+1 (555) 123-4567"
+  location: "Santa Fe, NM"
+  linkedin: "linkedin.com/in/skip-mcgee"
+  github: "github.com/skipmcgee"
+  profileImage: "/assets/img/profile.jpg"
+  bio:
+    - "I'm a computer scientist with a demonstrated history of excellence across a variety of technical competencies: software development, DevSecOps, Kubernetes, CI/CD, SIEM analytics, networking, vulnerability scanning and device hardening."
+    - "When I'm not hang gliding or learning to paraglide, you will find me exploring the latest in AI and machine learning."
+  quote: "All men dream: but not equally. Those who dream by night in the dusty recesses of their minds wake up in the day to find it was vanity, but the dreamers of the day are dangerous men, for they may act their dreams with open eyes, to make it possible."
+  author: "T.E. Lawrence"
+
+# Navigation
+navigation:
+  - label: "HOME"
+    href: "#home"
+  - label: "ABOUT"
+    href: "#about"
+  - label: "RESUME"
+    href: "#resume"
+  - label: "SKILLS"
+    href: "#skills"
+  - label: "PROJECTS"
+    href: "#projects"
+  - label: "PUBLICATIONS"
+    href: "#publications"
+
+# Experience
+experience:
+  - title: "Computer Scientist"
+    company: "Los Alamos National Laboratory"
+    period: "2018 - Present"
+    description:
+      - "High Performance Computing Division lead for Artificial Intelligence, Machine Learning and Cloud Computing Security."
+      - "Lead architect and engineer for Red Hat OpenShift clusters and application development (Kubernetes, OpenShift)."
+      - "Conduct threat hunting across organizational networks, develop, implement and deploy applications to improve system hardening and security (Python, Bash, Rust, Stackrox, Ansible)."
+      - "Design, build, secure and maintain information systems. Architect and implement technical solutions to meet security controls."
+      - "System event log analysis (Splunk), configuration monitoring and vulnerability management (Tenable), and perimeter defense (Juniper firewalls)."
+      - "Linux system configuration management and configuration hardening (Ansible, CFEngine)."
+      - "Design, develop and improve continuous monitoring solutions (OpenShift, Splunk, Red Hat Enterprise Linux, Junos, Cisco IOS)."
+  
+  - title: "Information Systems Management Officer"
+    company: "United States Marine Corps"
+    period: "2009 - 2018"
+    description:
+      - "Plan, install, operate and maintain information systems."
+      - "Serve as information system owner and Information Systems Security Manager."
+      - "Harden systems through application of Secure Technical Implementation Guides (STIGs), patching and conduct vulnerability assessments."
+      - "Design and implement incident response policies and procedures."
+
+# Education
+education:
+  - degree: "Bachelor of Computer Science"
+    institution: "Oregon State University"
+    period: "2021 - 2026"
+    description: "Focus on systems security and software engineering."
+
+  - degree: "Graduate Certificate in Defensive Cyber Operations"
+    institution: "SANS University"
+    period: "2019 - 2021"
+    description: "Focused on linux security and threat hunting."
+
+  - degree: "Master of Cybersecurity & Information Assurance"
+    institution: "Western Governors University"
+    period: "2016 - 2017"
+    description: "Focused on understanding the frameworks for information security."
+
+  - degree: "Master of Public Administration"
+    institution: "University of North Carolina at Pembroke"
+    period: "2013 - 2015"
+    description: "Focused on adding public value. Thesis on the history and legeslation behind facking in Mora County, New Mexico."
+
+  - degree: "Bachelor of Liberal Arts"
+    institution: "St. John's College"
+    period: "2006 - 2010"
+    description: "Focus on Math and Philosophy. Thesis on Fredrich Nietzsche."
+
+# Certifications
+certifications:
+  - name: "Certified Information Systems Security Professional (CISSP)"
+    issuer: "ISC²"
+    year: "2016"
+  - name: "Certified Information Security Manager (CISM)"
+    issuer: "ISACA"
+    year: "2016"
+  - name: "Machine Learning Engineer (GMLE)"
+    issuer: "GIAC	(SANS Technology Institute)"
+    year: "2024"
+  - name: "Continuous Monitoring Certification (GMON)"
+    issuer: "GIAC	(SANS Technology Institute)"
+    year: "2019"
+  - name: "Certified Intrusion Analyst (GCIA)"
+    issuer: "GIAC	(SANS Technology Institute)"
+    year: "2021"
+  - name: "Certified Linux/Unix Security Administrator (GCUX)"
+    issuer: "GIAC	(SANS Technology Institute)"
+    year: "2019"
+  - name: "Critical Controls Certification (GCCC)"
+    issuer: "GIAC	(SANS Technology Institute)"
+    year: "2020"
+  - name: "Certified Ethical Hacker (CEH)"
+    issuer: "EC-Council"
+    year: "2016"
+  - name: "Network Defense Architect (CNDA)"
+    issuer: "EC-Council"
+    year: "2019"
+  - name: "Certified Hacking Forensic Investigator (CHFI)"
+    issuer: "EC-Council"
+    year: "2016"
+  - name: "Advanced Security Practitioner (CASP)"
+    issuer: "CompTIA"
+    year: "2016"
+  - name: "Server+"
+    issuer: "CompTIA"
+    year: "2021"    
+  - name: "Security+"
+    issuer: "CompTIA"
+    year: "2015"
+  - name: "Network+"
+    issuer: "CompTIA"
+    year: "2015"
+  - name: "A+"
+    issuer: "CompTIA"
+    year: "2015"
+  - name: "Certified Enterprise Administrator"
+    issuer: "Splunk"
+    year: "2020"
+
+# Skills
+skills:
+  - category: "Security Operations"
+    icon: "🛡️"
+    tags:
+      - "SIEM"
+      - "Splunk"
+      #- "SOC Analysis"
+      - "Incident Response"
+      - "Threat Hunting"
+      - "Forensics"
+  
+  - category: "Penetration Testing"
+    icon: "🎯"
+    tags:
+      - "Metasploit"
+      - "Burp Suite"
+      - "Nmap"
+      - "OWASP"
+      - "Social Engineering"
+  
+  - category: "Software Development"
+    icon: "⚡"
+    tags:
+      - "Rust"
+      - "Python"
+      - "Perl"
+      - "Bash"
+      - "C"
+      - "Node.js"
+      - "Java"
+  
+  - category: "Cloud Security"
+    icon: "☁️"
+    tags:
+      - "OpenShift"
+      - "Stackrox"
+      - "Kubernetes"
+      #- "Azure Sentinel"
+      - "Docker"
+      - "Podman"
+      - "AWS Security"
+      #- "Terraform"
+  
+  - category: "Cryptography"
+    icon: "🔐"
+    tags:
+      - "PKI"
+      - "TLS/SSL"
+      - "Encryption"
+      - "Digital Signatures"
+      - "Key Management"
+  
+  - category: "Compliance"
+    icon: "📋"
+    tags:
+      - "ISO 27001"
+      - "NIST"
+      #- "SOC 2"
+      #- "GDPR"
+      #- "HIPAA"
+
+  - category: "Networking"
+    icon: "🌐"
+    tags:
+      - "TCP/IP"
+      - "Firewalls"
+      - "Juniper"
+      - "Cisco IOS"
+      - "Network Architecture"
+      - "Network Monitoring"
+
+  - category: "System Administration"
+    icon: "🖥️"
+    tags:
+      - "Linux"
+      - "Red Hat Enterprise Linux"
+      - "Ansible"
+      - "CFEngine"
+      - "System Hardening"
+      - "Configuration Management"
+
+  - category: "Vulnerability Management"
+    icon: "🔍"
+    tags:
+      - "Tenable"
+      - "Nessus"
+      - "Vulnerability Assessment"
+      - "Patch Management"
+
+# Projects
+projects:
+  - title: "Panhandle"
+    icon: "🛠️"
+    url: "https://github.com/lanl/panhandle"
+    description: "Monitor Linux user activity and related system calls through eBPF. Provides security visibility while minimizing node performance impact to enable deployments in High Performance Computing (HPC) environments."
+
+  - title: "Helicopter Landing Zone Predictor"
+    icon: "🚁"
+    url: "https://tak.gov/plugins/hlz-predictor"
+    description: "TAK plugin for Android devices to predict viable helicopter landing zones using a convolutions algorithm to parse terrain and elevation data. Different builds for civilian and military helicopter platforms."
+
+  - title: "Red Hat Host Security"
+    icon: "🔒"
+    url: "https://github.com/lanl/rhelhostinfo"
+    description: "Use the host-as-sensor model to enumerate security-relevant information about a RHEL host and the surrounding network, identifying and reporting changes via syslog."
+  
+  - title: "WeatherApp"
+    icon: "⚡"
+    url: "https://github.com/skipmcgee/WeatherApp"
+    description: "A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions."
+    links:
+      - label: "Source Code"
+        url: "https://github.com/skipmcgee/weatherscraper"
+
+  - title: "Expense_Analysis"
+    icon: "📊"
+    url: "https://github.com/skipmcgee/expense_impact"
+    description: "An application to assist reserve & national guard personnel fill out Tax Form 2106."    
+
+publications:
+  - title: "The Requirement for Software Engineers at the Tactical Edge"
+    url: "https://marines.dev/articles/images/McGeeGazetteArticle1025.pdf"
+    description: "The potential for software engineers to drive future strategic and tactical successes against near-peer threats."
+    date: "October, 2025"
+    publisher: "Marine Corps Association"
+    publication: "Marine Corps Gazette"
+
+  - title: "Automation for Future Conflicts"
+    url: "/assets/docs/AutomationArticle.pdf"
+    description: "The requirement for automation to drive success in future conflicts and the need for investment in software development."
+    date: "August, 2023"
+    publisher: "Marine Corps Association"
+    publication: "Marine Corps Gazette"
+
+  - title: "Technical Leadership"
+    url: "https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence"
+    description: "The differences and observations for adapting general leadership to technical problems and environments."
+    date: "April, 2021"
+    publisher: "United States Naval Institute"
+    publication: "Proceedings Magazine"
+
+# SEO
+seo:
+  title: "Skip McGee - Cybersecurity Engineer & Computer Scientist"
+  description: "Cybersecurity Engineer and Computer Scientist with a variety of interests: application development, scripting, SIEM, threat hunting, networking, vulnerability scanning and device hardening."
+  keywords: "cybersecurity, penetration testing, software development, full stack developer, threat hunting, security engineer"
+  ogImage: "/assets/img/profile.jpg"

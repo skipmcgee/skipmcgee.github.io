@@ -1,0 +1,194 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="terminal-lines">
+        <div class="terminal-line"></div>
+        <div class="terminal-line"></div>
+        <div class="terminal-line"></div>
+    </div>
+    <div class="floating-elements">
+        <div class="floating-element hex"></div>
+        <div class="floating-element square"></div>
+        <div class="floating-element circuit"></div>
+        <div class="floating-element hex"></div>
+        <div class="floating-element square"></div>
+    </div>
+    <div class="hero-content">
+        <h1 class="hero-title">{{ site.data.portfolio.personal.name }}<span class="terminal-cursor">_</span></h1>
+        <p class="hero-subtitle">{{ site.data.portfolio.personal.title }}</p>
+        <p class="hero-tagline">{{ site.data.portfolio.personal.tagline }}</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <div class="about-content">
+        <div class="about-image">
+            <img src="{{ site.data.portfolio.personal.profileImage | relative_url }}" alt="{{ site.data.portfolio.personal.name }} Profile Picture">
+        </div>
+        <div class="about-text">
+            <h3>Information Security</h3>
+            {% for paragraph in site.data.portfolio.personal.bio %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+        </div>
+        <div class="about-quote">
+            <p>"{{ site.data.portfolio.personal.quote }}"</p>
+            <p>--{{ site.data.portfolio.personal.author }}</p>
+        </div>
+    </div>
+</section>
+
+<!-- Replace the Resume Section in your index.html with this updated version -->
+
+<!-- Resume Section -->
+<section id="resume" class="section">
+    <h2 class="section-title">Resume</h2>
+    <div class="resume-content">
+        <div class="resume-column">
+            <h3>Experience</h3>
+            {% for job in site.data.portfolio.experience %}
+            <div class="resume-item">
+                <h4>{{ job.title }}</h4>
+                <div class="company">{{ job.company }}</div>
+                <div class="date">{{ job.period }}</div>
+                
+                {% if job.description.first %}
+                    <!-- If description is an array (multiple bullet points) -->
+                    <ul class="experience-bullets">
+                        {% for bullet in job.description %}
+                        <li>{{ bullet }}</li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <!-- If description is a single string (backward compatibility) -->
+                    <p>{{ job.description }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        
+        <div class="resume-column">
+            <h3>Education</h3>
+            {% for edu in site.data.portfolio.education %}
+            <div class="resume-item">
+                <h4>{{ edu.degree }}</h4>
+                <div class="company">{{ edu.institution }}</div>
+                <div class="date">{{ edu.period }}</div>
+                
+                {% if edu.description.first %}
+                    <!-- Support bullet points for education too -->
+                    <ul class="experience-bullets">
+                        {% for bullet in edu.description %}
+                        <li>{{ bullet }}</li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>{{ edu.description }}</p>
+                {% endif %}
+            </div>
+            {% endfor %}
+            
+            <h3 style="margin-top: 2rem;">Certifications</h3>
+            {% for cert in site.data.portfolio.certifications %}
+            <div class="resume-item">
+                <h4>{{ cert.name }}</h4>
+                <div class="company">{{ cert.issuer }}</div>
+                <div class="date">{{ cert.year }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+        {% for skill in site.data.portfolio.skills %}
+        <div class="skill-card">
+            <div class="skill-icon">{{ skill.icon }}</div>
+            <h4>{{ skill.category }}</h4>
+            <div class="skill-tags">
+                {% for tag in skill.tags %}
+                <span class="skill-tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        {% for project in site.data.portfolio.projects %}
+        <div class="project-card">
+            <div class="project-image">{{ project.icon }}</div>
+            <div class="project-content">
+                {% if project.url %}
+                <h4>
+                    <a href="{{ project.url }}" 
+                       class="project-title-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="Visit {{ project.title }} project">
+                        {{ project.title }}
+                    </a>
+                </h4>
+                {% else %}
+                <h4>{{ project.title }}</h4>
+                {% endif %}
+                
+                <p>{{ project.description }}</p>
+                <div class="project-links">
+                    {% for link in project.links %}
+                    <a href="{{ link.url }}" 
+                       class="project-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        {{ link.label }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- PublicationsSection -->
+<section id="publications" class="section">
+    <h2 class="section-title">Publications</h2>
+    <div class="projects-grid">
+        {% for publication in site.data.portfolio.publications %}
+        <div class="project-card">
+            <div class="project-image">{{ publication.icon }}</div>
+            <div class="project-content">
+                {% if publication.url %}
+                <h4>
+                    <a href="{{ publication.url }}" 
+                       class="project-title-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="Visit {{ publication.title }} publication">
+                        {{ publication.title }}
+                    </a>
+                </h4>
+                {% else %}
+                <h4>{{ publication.title }}</h4>
+                {% endif %}
+                <p>{{ publication.description }}</p>
+                <p>{{ publication.date }}</p>
+                <p>{{ publication.publication }}</p>
+                <p>{{ publication.publisher }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
