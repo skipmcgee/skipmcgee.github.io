@@ -254,7 +254,7 @@ projects:
 
 publications:
   - title: "The Requirement for Software Engineers at the Tactical Edge"
-    url: "https://marines.dev/articles/images/McGeeGazetteArticle1025.pdf"
+    url: "/assets/docs/SoftwareEngineers.pdf"
     description: "The potential for software engineers to drive future strategic and tactical successes against near-peer threats."
     date: "October, 2025"
     publisher: "Marine Corps Association"
