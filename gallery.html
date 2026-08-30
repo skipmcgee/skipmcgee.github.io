@@ -1,0 +1,55 @@
+---
+layout: default
+title: "Gallery - Skip McGee"
+permalink: /gallery/
+---
+
+<section id="gallery" class="section">
+    <h2 class="section-title">Gallery</h2>
+    <p class="gallery-intro">A few frames from flying, deployments, and time outside.</p>
+
+    <div class="gallery-grid">
+        {% for photo in site.data.portfolio.gallery %}
+        <button type="button" class="gallery-card" data-index="{{ forloop.index0 }}">
+            <img src="{{ photo.image | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
+            <div class="gallery-card-caption">
+                <span class="gallery-card-tag">{{ photo.tag }}</span>
+                <h4>{{ photo.title }}</h4>
+            </div>
+        </button>
+        {% endfor %}
+    </div>
+</section>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-close></div>
+    <button type="button" class="lightbox-nav lightbox-prev" aria-label="Previous photo">‹</button>
+    <div class="lightbox-content" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+        <button type="button" class="lightbox-close" data-close aria-label="Close">&times;</button>
+        <div class="lightbox-image-wrap">
+            <img id="lightbox-image" src="" alt="">
+        </div>
+        <div class="lightbox-info">
+            <span class="lightbox-tag" id="lightbox-tag"></span>
+            <h3 id="lightbox-title"></h3>
+            <p id="lightbox-description"></p>
+            <div class="lightbox-counter"><span id="lightbox-current"></span> / <span id="lightbox-total"></span></div>
+        </div>
+    </div>
+    <button type="button" class="lightbox-nav lightbox-next" aria-label="Next photo">›</button>
+</div>
+
+<script>
+    window.GALLERY_PHOTOS = [
+        {% for photo in site.data.portfolio.gallery %}
+        {
+            image: {{ photo.image | relative_url | jsonify }},
+            alt: {{ photo.alt | jsonify }},
+            tag: {{ photo.tag | jsonify }},
+            title: {{ photo.title | jsonify }},
+            description: {{ photo.description | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ];
+</script>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>

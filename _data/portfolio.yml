@@ -19,17 +19,19 @@ personal:
 # Navigation
 navigation:
   - label: "HOME"
-    href: "#home"
+    href: "/#home"
   - label: "ABOUT"
-    href: "#about"
+    href: "/#about"
   - label: "RESUME"
-    href: "#resume"
+    href: "/#resume"
   - label: "SKILLS"
-    href: "#skills"
+    href: "/#skills"
   - label: "PROJECTS"
-    href: "#projects"
+    href: "/#projects"
   - label: "PUBLICATIONS"
-    href: "#publications"
+    href: "/#publications"
+  - label: "GALLERY"
+    href: "/gallery/"
 
 # Experience
 experience:
@@ -256,6 +258,50 @@ projects:
     icon: "🌬️"
     url: "https://wind-analysis.dreamersoftheday.vip"
     description: "A wind data and forecasting tool for evaluating flying conditions, built to support hang gliding and paragliding site selection."
+
+# Gallery
+gallery:
+  - title: "Launch"
+    image: "/assets/img/4F4A3A71-1A38-4122-8624-AA5279C13180.jpeg"
+    alt: "A hang glider pilot launching off a ridge in New Mexico while ground crew help steady the wing."
+    tag: "Hang Gliding"
+    description: "Launching off a ridge in the high desert — one of the reasons I moved to Santa Fe."
+
+  - title: "Mule Deer, Sangre de Cristos"
+    image: "/assets/img/deer.jpg"
+    alt: "A mule deer buck standing on a snowy hillside with red autumn foliage in the foreground."
+    tag: "Santa Fe, NM"
+    description: "A buck along a snowy ridgeline in the Rockies, caught mid-stare on a quiet afternoon."
+
+  - title: "White Sands, Inverted"
+    image: "/assets/img/whitesands.jpg"
+    alt: "An inverted, mirror-like photo of the dunes and sky at White Sands National Park at dusk."
+    tag: "White Sands, NM"
+    description: "Dunes and sky at White Sands, flipped — the horizon reads the same either way you hold it."
+
+  - title: "Ridge Line at Dusk"
+    image: "/assets/img/hunter.jpg"
+    alt: "A silhouette of a person carrying gear along a ridge at sunset."
+    tag: "New Mexico"
+    description: "The walk out, timed badly and lit perfectly."
+
+  - title: "Last Light"
+    image: "/assets/img/hunter1.jpg"
+    alt: "A silhouette of a person along a ridge at sunset, a companion shot to Ridge Line at Dusk."
+    tag: "New Mexico"
+    description: "A few minutes later, same ridge — the light was worth the slow pace back to the truck."
+
+  - title: "Forward Node, Sunset"
+    image: "/assets/img/DJC2.jpeg"
+    alt: "Expeditionary tents and a satellite communications terminal set up in the desert at sunset, with mountains in the background."
+    tag: "USMC Deployment"
+    description: "Setting up a Digital Interoperability node on deployment — communications gear against a desert sunset."
+
+  - title: "Task Force 51 / 5th MEB"
+    image: "/assets/img/thelooters.jpg"
+    alt: "A group photo of a Marine Corps task force team in tactical gear, labeled DJC2 20.2 TF 51/5th MEB."
+    tag: "USMC Deployment"
+    description: "The DJC2 20.2 team, Task Force 51 / 5th Marine Expeditionary Brigade."
 
 publications:
   - title: "The Requirement for Software Engineers at the Tactical Edge"

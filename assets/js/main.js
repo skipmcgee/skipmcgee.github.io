@@ -47,12 +47,15 @@ document.querySelectorAll('.section').forEach(section => {
     observer.observe(section);
 });
 
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// Smooth scrolling for same-page navigation links (bare "#id" or "/#id" hrefs).
+// If the target isn't on this page (e.g. a "/#about" link clicked from /gallery/),
+// let the browser navigate there normally instead of intercepting the click.
+document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        const hash = this.getAttribute('href').replace(/^\//, '');
+        const target = document.querySelector(hash);
         if (target) {
+            e.preventDefault();
             target.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
