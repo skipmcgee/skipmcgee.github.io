@@ -5,19 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>{{ site.data.portfolio.personal.name }} - {{ site.data.portfolio.personal.title }}</title>
-    <meta name="description" content="{{ site.data.portfolio.seo.description }}">
+    <title>{{ page.title | default: site.title }}</title>
     <meta name="keywords" content="{{ site.data.portfolio.seo.keywords }}">
     <meta name="author" content="{{ site.data.portfolio.personal.name }}">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{{ site.data.portfolio.personal.name }} - {{ site.data.portfolio.personal.title }}">
-    <meta property="og:description" content="{{ site.data.portfolio.seo.description }}">
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ site.data.portfolio.seo.ogImage }}">
-    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}">
-    <meta property="og:type" content="website">
-    
-    
+
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
@@ -25,10 +17,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
     
     <!-- Jekyll SEO Tag (if using plugin) -->
-    {% seo %}
+    {% seo title=false %}
 </head>
 <body>
     <!-- Scroll Progress -->

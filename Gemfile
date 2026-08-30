@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Jekyll version compatible with GitHub Pages
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 3.10.0"
 
 # GitHub Pages gem (includes compatible versions of all plugins)
 gem "github-pages", group: :jekyll_plugins

@@ -1,20 +1,8 @@
-// Google Forms Configuration
-const CONTACT_FORM_CONFIG = {
-    formId: 'YOUR_ACTUAL_FORM_ID_HERE_000000000000000000000000000000', // Your Google Form ID
-    fields: { //Refer to README.md Contact Form Setup - Step 5
-        name: 'entry.0000000000', 
-        email: 'entry.0000000000',  
-        subject: 'entry.0000000000',
-        message: 'entry.0000000000'
-    },
-    fallbackEmail: 'emailgoeshere@email.com' // Input email here, not required
-};
-
 // Theme Toggle
 function toggleTheme() {
     const body = document.body;
     const themeToggle = document.querySelector('.theme-toggle');
-    
+
     if (body.getAttribute('data-theme') === 'light') {
         body.removeAttribute('data-theme');
         themeToggle.textContent = '◉';
@@ -26,16 +14,6 @@ function toggleTheme() {
     }
 }
 
-// Load saved theme
-document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'light') {
-        document.body.setAttribute('data-theme', 'light');
-        const themeToggle = document.querySelector('.theme-toggle');
-        if (themeToggle) themeToggle.textContent = '○';
-    }
-});
-
 // Custom Cursor
 const cursor = document.querySelector('.cursor');
 const cursorFollower = document.querySelector('.cursor-follower');
@@ -43,20 +21,11 @@ const cursorFollower = document.querySelector('.cursor-follower');
 document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.clientX + 'px';
     cursor.style.top = e.clientY + 'px';
-    
+
     setTimeout(() => {
         cursorFollower.style.left = e.clientX + 'px';
         cursorFollower.style.top = e.clientY + 'px';
     }, 100);
-});
-
-// Scroll Progress
-window.addEventListener('scroll', () => {
-    const scrollProgress = document.querySelector('.scroll-progress');
-    const scrollTop = window.pageYOffset;
-    const docHeight = document.body.offsetHeight - window.innerHeight;
-    const scrollPercent = (scrollTop / docHeight) * 100;
-    scrollProgress.style.width = scrollPercent + '%';
 });
 
 // Intersection Observer for animations
@@ -92,128 +61,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// =====================================================================================
-// CLEAN FORM SUBMISSION HANDLER - NO METADATA IN MESSAGE FIELD
-// =====================================================================================
-
-document.querySelector('.contact-form').addEventListener('submit', async function(e) {
-    e.preventDefault();
-    
-    const formData = new FormData(this);
-    const data = {
-        name: formData.get('name'),
-        email: formData.get('email'),
-        subject: formData.get('subject'),
-        message: formData.get('message') // CLEAN message only - no metadata!
-    };
-    
-    const submitBtn = this.querySelector('.submit-btn');
-    const originalText = submitBtn.textContent;
-    submitBtn.textContent = 'TRANSMITTING...';
-    submitBtn.disabled = true;
-    
-    try {
-        // Submit CLEAN data to Google Forms (no metadata appended)
-        const googleFormData = new FormData();
-        googleFormData.append(CONTACT_FORM_CONFIG.fields.name, data.name);
-        googleFormData.append(CONTACT_FORM_CONFIG.fields.email, data.email);
-        googleFormData.append(CONTACT_FORM_CONFIG.fields.subject, data.subject);
-        googleFormData.append(CONTACT_FORM_CONFIG.fields.message, data.message); // Clean message only!
-        
-        await fetch(`https://docs.google.com/forms/d/e/${CONTACT_FORM_CONFIG.formId}/formResponse`, {
-            method: 'POST',
-            mode: 'no-cors',
-            body: googleFormData
-        });
-        
-        submitBtn.textContent = 'MESSAGE TRANSMITTED ✓';
-        submitBtn.style.background = 'var(--terminal-green)';
-        submitBtn.style.borderColor = 'var(--terminal-green)';
-        this.reset();
-        
-        // Show success notification
-        showNotification('Message transmitted successfully! I\'ll respond within 24 hours.', 'success');
-        
-    } catch (error) {
-        submitBtn.textContent = 'TRANSMISSION FAILED ✗';
-        submitBtn.style.background = 'var(--accent-cyber)';
-        submitBtn.style.borderColor = 'var(--accent-cyber)';
-        
-        showNotification(`Transmission failed. Contact me directly at: <a href="mailto:${CONTACT_FORM_CONFIG.fallbackEmail}" style="color: var(--primary-cyber);">${CONTACT_FORM_CONFIG.fallbackEmail}</a>`, 'error');
-    }
-    
-    setTimeout(() => {
-        submitBtn.textContent = originalText;
-        submitBtn.style.background = '';
-        submitBtn.style.borderColor = '';
-        submitBtn.disabled = false;
-    }, 4000);
-});
-
-// Simple notification system
-function showNotification(message, type) {
-    const existing = document.querySelector('.form-notification');
-    if (existing) existing.remove();
-    
-    const notification = document.createElement('div');
-    notification.className = `form-notification ${type}`;
-    notification.innerHTML = `
-        <div class="notification-content">
-            <span class="notification-icon">${type === 'success' ? '✓' : '✗'}</span>
-            <div class="notification-message">${message}</div>
-            <button class="notification-close" onclick="this.parentElement.parentElement.remove()">×</button>
-        </div>
-    `;
-    
-    const form = document.querySelector('.contact-form');
-    form.parentNode.insertBefore(notification, form.nextSibling);
-    
-    setTimeout(() => {
-        if (notification.parentNode) {
-            notification.remove();
-        }
-    }, 6000);
-}
-
 // Add hover effects to interactive elements
-document.querySelectorAll('.skill-card, .project-card, .contact-item').forEach(card => {
+document.querySelectorAll('.skill-card, .project-card').forEach(card => {
     card.addEventListener('mouseenter', () => {
         cursor.style.transform = 'translate(-50%, -50%) scale(1.5)';
         cursor.style.borderColor = '#00d4ff';
     });
-    
+
     card.addEventListener('mouseleave', () => {
         cursor.style.transform = 'translate(-50%, -50%) scale(1)';
         cursor.style.borderColor = '#00ff88';
-    });
-});
-
-// Navbar background on scroll
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('nav');
-    const isLight = document.body.getAttribute('data-theme') === 'light';
-    
-    if (window.scrollY > 100) {
-        nav.style.background = isLight 
-            ? 'rgba(255, 255, 255, 0.95)' 
-            : 'rgba(10, 10, 15, 0.95)';
-        nav.style.backdropFilter = 'blur(20px)';
-    } else {
-        nav.style.background = isLight 
-            ? 'rgba(255, 255, 255, 0.9)' 
-            : 'rgba(10, 10, 15, 0.9)';
-        nav.style.backdropFilter = 'blur(20px)';
-    }
-});
-
-// Parallax effect for floating elements
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.floating-element');
-    
-    parallaxElements.forEach((element, index) => {
-        const speed = 0.1 + (index * 0.05);
-        element.style.transform = `translateY(${scrolled * speed}px) rotate(${scrolled * 0.05}deg)`;
     });
 });
 
@@ -230,7 +87,7 @@ function createMatrixRain() {
         z-index: 1;
         opacity: 0.05;
     `;
-    
+
     for (let i = 0; i < 15; i++) {
         const drop = document.createElement('div');
         drop.textContent = Math.random() < 0.5 ? '1' : '0';
@@ -245,7 +102,7 @@ function createMatrixRain() {
         `;
         matrixContainer.appendChild(drop);
     }
-    
+
     document.body.appendChild(matrixContainer);
 }
 
@@ -293,8 +150,16 @@ function typeWriter(element, text, speed = 100) {
     }, speed);
 }
 
-// Initialize typing effect for subtitle
 document.addEventListener('DOMContentLoaded', () => {
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        document.body.setAttribute('data-theme', 'light');
+        const themeToggle = document.querySelector('.theme-toggle');
+        if (themeToggle) themeToggle.textContent = '○';
+    }
+
+    // Initialize typing effect for subtitle
     setTimeout(() => {
         const subtitle = document.querySelector('.hero-subtitle');
         if (subtitle) {
@@ -302,4 +167,38 @@ document.addEventListener('DOMContentLoaded', () => {
             typeWriter(subtitle, originalText, 80);
         }
     }, 1000);
+});
+
+window.addEventListener('scroll', () => {
+    // Scroll Progress
+    const scrollProgress = document.querySelector('.scroll-progress');
+    const scrollTop = window.pageYOffset;
+    const docHeight = document.body.offsetHeight - window.innerHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    scrollProgress.style.width = scrollPercent + '%';
+
+    // Navbar background on scroll
+    const nav = document.querySelector('nav');
+    const isLight = document.body.getAttribute('data-theme') === 'light';
+
+    if (window.scrollY > 100) {
+        nav.style.background = isLight
+            ? 'rgba(255, 255, 255, 0.95)'
+            : 'rgba(10, 10, 15, 0.95)';
+        nav.style.backdropFilter = 'blur(20px)';
+    } else {
+        nav.style.background = isLight
+            ? 'rgba(255, 255, 255, 0.9)'
+            : 'rgba(10, 10, 15, 0.9)';
+        nav.style.backdropFilter = 'blur(20px)';
+    }
+
+    // Parallax effect for floating elements
+    const scrolled = window.pageYOffset;
+    const parallaxElements = document.querySelectorAll('.floating-element');
+
+    parallaxElements.forEach((element, index) => {
+        const speed = 0.1 + (index * 0.05);
+        element.style.transform = `translateY(${scrolled * speed}px) rotate(${scrolled * 0.05}deg)`;
+    });
 });

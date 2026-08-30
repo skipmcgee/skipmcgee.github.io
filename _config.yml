@@ -1,7 +1,8 @@
-title: "Skip's Portfolio Website"
-description: "My personal site to display my projects and interests. Besides coding, I’m an avid hang-glider, skier and mopuntain biker located at the southern end of the Rockies in Santa Fe, NM."
+title: "Skip McGee - Cybersecurity Engineer & Computer Scientist"
+description: "Cybersecurity Engineer and Computer Scientist with a variety of interests: application development, scripting, SIEM, threat hunting, networking, vulnerability scanning and device hardening."
 url: "https://skipmcgee.github.io"
 baseurl: ""
+image: "/assets/img/profile.jpg"
 
 author: "Skip McGee"
 social:

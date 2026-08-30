@@ -225,7 +225,7 @@ skills:
 # Projects
 projects:
   - title: "Panhandle"
-    icon: "🛠️"
+    icon: "👁️"
     url: "https://github.com/lanl/panhandle"
     description: "Monitor Linux user activity and related system calls through eBPF. Provides security visibility while minimizing node performance impact to enable deployments in High Performance Computing (HPC) environments."
 
@@ -240,7 +240,7 @@ projects:
     description: "Use the host-as-sensor model to enumerate security-relevant information about a RHEL host and the surrounding network, identifying and reporting changes via syslog."
   
   - title: "WeatherApp"
-    icon: "⚡"
+    icon: "🌦️"
     url: "https://github.com/skipmcgee/WeatherApp"
     description: "A Windows10 executable GUI application to display the current weather in two locations simultaneously. Written in Python, wrapped into a single executable using PyInstaller. Build your own version of the WeatherApp from the source code and instructions."
     links:
@@ -250,10 +250,16 @@ projects:
   - title: "Expense_Analysis"
     icon: "📊"
     url: "https://github.com/skipmcgee/expense_impact"
-    description: "An application to assist reserve & national guard personnel fill out Tax Form 2106."    
+    description: "An application to assist reserve & national guard personnel fill out Tax Form 2106."
+
+  - title: "Wind Analysis"
+    icon: "🌬️"
+    url: "https://wind-analysis.dreamersoftheday.vip"
+    description: "A wind data and forecasting tool for evaluating flying conditions, built to support hang gliding and paragliding site selection."
 
 publications:
   - title: "The Requirement for Software Engineers at the Tactical Edge"
+    icon: "🪖"
     url: "/assets/docs/SoftwareEngineers.pdf"
     description: "The potential for software engineers to drive future strategic and tactical successes against near-peer threats."
     date: "October, 2025"
@@ -261,6 +267,7 @@ publications:
     publication: "Marine Corps Gazette"
 
   - title: "Automation for Future Conflicts"
+    icon: "🤖"
     url: "/assets/docs/AutomationArticle.pdf"
     description: "The requirement for automation to drive success in future conflicts and the need for investment in software development."
     date: "August, 2023"
@@ -268,6 +275,7 @@ publications:
     publication: "Marine Corps Gazette"
 
   - title: "Technical Leadership"
+    icon: "🎖️"
     url: "https://www.usni.org/magazines/proceedings/2021/april/marine-corps-technical-skill-and-leadership-divergence"
     description: "The differences and observations for adapting general leadership to technical problems and environments."
     date: "April, 2021"
