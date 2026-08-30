@@ -204,19 +204,21 @@
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2rem;
+            gap: 1.25rem;
             align-items: center;
         }
 
         .nav-links a {
+            display: inline-block;
             text-decoration: none;
             color: var(--text-secondary);
             font-weight: 500;
             position: relative;
             transition: all 0.3s ease;
             font-family: 'JetBrains Mono', monospace;
-            padding: 0.5rem 1rem;
+            padding: 0.5rem 0.65rem;
             border-radius: 4px;
+            white-space: nowrap;
         }
 
         .nav-links a:hover {
@@ -927,6 +929,17 @@
         }
 
         /* Responsive */
+        @media (max-width: 1150px) {
+            .nav-links {
+                gap: 0.75rem;
+            }
+
+            .nav-links a {
+                padding: 0.5rem 0.4rem;
+                font-size: 0.85rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;

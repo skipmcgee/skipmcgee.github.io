@@ -4,6 +4,14 @@ url: "https://skipmcgee.github.io"
 baseurl: ""
 image: "/assets/img/profile.jpg"
 
+# GitHub Pages' production build doesn't run through Bundler, so plugins in
+# the Gemfile's :jekyll_plugins group are never auto-required there — they
+# must also be listed here explicitly to actually activate on the live site.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
 author: "Skip McGee"
 social:
   name: "Skip McGee"
